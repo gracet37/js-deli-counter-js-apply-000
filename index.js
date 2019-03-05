@@ -20,19 +20,11 @@ function currentLine(katzDeli) {
     return `The line is currently empty.`;
  } else { 
    var line = []
-<<<<<<< HEAD
    let i = 0;
    while (i < katzDeli.length) {
      line.push(" " + (i+1) + ". " + katzDeli[i]);
   i++}
 }
 return `The line is currently:${line}`;
-=======
-   for (let i=0;i<katzDeli.length; i++) {
-     line.push(i+1 + ". " + katzDeli[i]);
-  }
-}
-return `The line is currently: ${line} `;
->>>>>>> 9617242b9cb4ecee71eab7d64580dbaf50919a8c
 }
 
